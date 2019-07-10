@@ -23,3 +23,20 @@ def test_content(response):
     """Sample pytest test function with the pytest fixture as an argument."""
     # from bs4 import BeautifulSoup
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
+
+def test_add():
+
+    first = 1
+    second = 2
+    sum = first + second
+
+    assert python_testing_demo.add(first, second) == sum
+
+
+def test_subtract():
+
+    first = 1
+    second = 2
+    difference = first - second
+    
+    assert python_testing_demo.subtract(first, second) == difference
